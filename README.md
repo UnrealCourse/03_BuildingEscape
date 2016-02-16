@@ -15,6 +15,7 @@ Ben Tristem
 Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubSpecial) to find out more about the course, and how we build these assets step-by-step.
 
 ## Lecture List
-* BE01 - Section Introduction
-* BE02 - Game Design Document (GDD)
-* BE03 - Version Control 101
+* BE01 Section Introduction
+* BE02 Game Design Document (GDD)
+* BE03 Version Control 101
+* BE04 Ignoring Unreal Derived Files
