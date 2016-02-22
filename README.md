@@ -19,3 +19,6 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubSpecial) to fin
 * BE02 Game Design Document (GDD)
 * BE03 Version Control 101
 * BE04 Ignoring Unreal Derived Files
+* BE05 Your First .gitignore for Unreal
+* BE06 Getting to Know Unreal’s Editor
+* BE06b A Pointers Primer
