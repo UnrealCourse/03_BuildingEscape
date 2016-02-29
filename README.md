@@ -22,3 +22,16 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubSpecial) to fin
 * BE05 Your First .gitignore for Unreal
 * BE06 Getting to Know Unreal’s Editor
 * BE06b A Pointers Primer
+* BE07 Unreal’s Class System
+* BE08 Runtime Messages for Feedback
+* BE09 Accessing Object Names
+* BE10 Getting Transforms in C++
+* BE11 Moving Objects With C++
+* BE12 Laying Out Geometry
+* BE13 Applying Materials
+* BE14 Macros Starting with UPROPERTY
+* BE15 Using Trigger Volumes
+* BE16 Unreal’s PlayerController
+* BE17 Using Collision Volumes
+* BE18 Using GetTimeSeconds()
+* BE19 Grabbing System Overview
