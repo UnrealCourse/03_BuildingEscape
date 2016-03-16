@@ -5,6 +5,7 @@
 #include "Components/ActorComponent.h"
 #include "OpenDoor.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDonkeyEvent);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class BUILDINGESCAPE_API UOpenDoor : public UActorComponent
@@ -24,11 +25,13 @@ public:
 	// Called every frame
 	virtual void TickComponent( float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction ) override;
 
+	UPROPERTY(BluePrintAssignable)
+	FDonkeyEvent DonkeyEvent;
 
 private:
 	UPROPERTY(EditAnywhere)
 	float OpenAngle = -90.0f;
-
+	
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate;
 
@@ -41,4 +44,5 @@ private:
 
 	// Returns total mass in kg
 	float GetTotalMassOfActorsOnPlate();
+
 };
