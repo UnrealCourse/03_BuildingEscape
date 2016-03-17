@@ -22,13 +22,12 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 	Owner = GetOwner();
-	DonkeyEvent.Broadcast();
 }
 
 void UOpenDoor::OpenDoor()
 {
-	Owner->SetActorRotation(FRotator(0.f, OpenAngle, 0.f));
-	
+	// Owner->SetActorRotation(FRotator(0.f, OpenAngle, 0.f));
+	DonkeyEvent.Broadcast();
 }
 
 void UOpenDoor::CloseDoor()
