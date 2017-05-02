@@ -359,6 +359,3 @@ The Concept, Rules and Requirements of our simple game.
 + Please carry-on a little on your own and share
 + Attached are useful resources
 + Start the next section as soon as you’re finished.
-
----
-Find out more about our [Unreal Engine Developer Course](https://www.udemy.com/unrealcourse/?couponCode=GitHubDiscount).
