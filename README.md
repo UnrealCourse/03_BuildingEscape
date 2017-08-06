@@ -1,4 +1,4 @@
-### Intro, Notes & Section 3 Assets ###
+### 1 Intro, Notes & Section 3 Assets ###
 
 + Welcome to our first Unreal editor section.
 + You’ll learn simple level building.
@@ -7,11 +7,11 @@
 + Calling C++ code from Blueprint.
 + And much more.
 
-### S03 Game Design Document (GDD) ###
+### 2 S03 Game Design Document (GDD) ###
 
 The Concept, Rules and Requirements of our simple game.
 
-### Version Control 101 ###
+### 3 Version Control 101 ###
 
 + The what and why of Version Control Systems
 + Choosing your Version Control System (VCS)
@@ -20,7 +20,7 @@ The Concept, Rules and Requirements of our simple game.
 + Reset = roll-back to a previous state
 + Branch, Push and Large File Support later.
 
-### Ignoring Unreal Derived Files ###
+### 4 Ignoring Unreal Derived Files ###
 
 + Derived files can be easily rebuilt
 + Other files (code, assets, level layout etc) can’t
@@ -28,14 +28,14 @@ The Concept, Rules and Requirements of our simple game.
 + Which folders to ignore in version control
 + Our starting .gitignore file for Unreal.
 
-### Your First .gitignore for Unreal ###
+### 5 Your First .gitignore for Unreal ###
 
 + Understand Unreal creates VS projects for us
 + How to re-generate VS project files
 + Writing our first .gitignore file
 + “Committing” our project for the first time.
 
-### Getting to Know Unreal’s Editor ###
+### 6 Getting to Know Unreal’s Editor ###
 
 + Why changes to the starter scene aren’t tracked
 + Arranging a simple set of windows
@@ -51,7 +51,7 @@ The Concept, Rules and Requirements of our simple game.
 + Benefit: saves you from moving things in memory
 + Disadvantage: you can lose control of data.
 
-### Unreal’s Class System ###
+### 7 Unreal’s Class System ###
 
 + Introducing the idea of inheritance
 + Unreal’s scarily powerful class system
@@ -59,7 +59,7 @@ The Concept, Rules and Requirements of our simple game.
 + Inheritance for “is a” relationships
 + Components for “has a” relationships.
 
-### Runtime Messages for Feedback ###
+### 8 Runtime Messages for Feedback ###
 
 + Using **UE_LOG** to print to the Output Console
 + Printing to the game screen
@@ -67,7 +67,7 @@ The Concept, Rules and Requirements of our simple game.
 **Useful Links**
 + [Epic Wiki - Logs, Printing Messages to Yourself During Runtime](https://wiki.unrealengine.com/Logs,_Printing_Messages_To_Yourself_During_Runtime#Related_Tutorial_)
 
-### Accessing Object Names ###
+### 9 Accessing Object Names ###
 
 + Use **GetOwner()** to find the component’s owner
 + **\*AActor** is a pointer to an actor, a new concept
@@ -76,14 +76,14 @@ The Concept, Rules and Requirements of our simple game.
 + Use **%s** as a format operator for strings
 + Use **\*** to “dereference” pointers.
 
-### Getting Transforms in C++ ###
+### 10 Getting Transforms in C++ ###
 
 + Introducing **FVector**
 + Mixing **.** and **->** to access methods
 + Using multiple format operators
 + Finishing our **PositionReport** component.
 
-### Moving Objects With C++ ###
+### 11 Moving Objects With C++ ###
 
 + A little more about the editor & temporary actors
 + How to eject yourself from the possessed pawn
@@ -91,7 +91,7 @@ The Concept, Rules and Requirements of our simple game.
 + Using the **FRotator** struct to represent rotation
 + Use **SetActorRotation()** to rotate objects.
 
-### Laying Out Geometry ###
+### 12 Laying Out Geometry ###
 
 + A brief intro of BSP “vs” Static Meshes
 + Use **Q, W, E** keys to translate, rotate, scale
@@ -100,7 +100,7 @@ The Concept, Rules and Requirements of our simple game.
 + Hold **L** and double-click for temporary work Light
 + This is fiddly, try letting go of **L** and trying again.
 
-### Applying Materials ###
+### 13 Applying Materials ###
 
 + A material is comprised of texture(s) and shader(s)
 + Textures are image files, shaders are GPU code
@@ -108,7 +108,7 @@ The Concept, Rules and Requirements of our simple game.
 + Unreal has powerful material editing tools
 + Applying materials to our room interior.
 
-### Macros Starting with UPROPERTY ###
+### 14 Macros Starting with UPROPERTY ###
 
 + A macro is a programmed cut-and-paste
 + This happens before the code is compiled
@@ -117,7 +117,7 @@ The Concept, Rules and Requirements of our simple game.
 + Can also create really weird build errors
 + Expose **ATriggerVolume\*** to the Details window
 
-### Using Trigger Volumes ###
+### 15 Using Trigger Volumes ###
 
 + A trigger volume is a very versatile tool
 + A 3D volume that detects things entering / leaving
@@ -126,7 +126,7 @@ The Concept, Rules and Requirements of our simple game.
 + Use **IsOverlappingActor()** on **ATriggerVolume**
 + Polling vs using events.
 
-### Unreal’s PlayerController ###
+### 16 Unreal’s PlayerController ###
 
 + We’ve used **GetOwner()** to search “bottom-up”
 + Now let’s use **GetWorld()** to search “top-down”
@@ -135,7 +135,7 @@ The Concept, Rules and Requirements of our simple game.
 + The Player Controller is your “mind”, persist
 + PlayerController class has **GetPawn()**
 
-### Using Collision Volumes ###
+### 17 Using Collision Volumes ###
 
 + Collisions volumes are also known as colliders
 + These tell the physics engine what hits what
@@ -144,7 +144,7 @@ The Concept, Rules and Requirements of our simple game.
 + Exploring how to add collision volumes
 + Prevent players from passing through the door!
 
-### Using GetTimeSeconds() ###
+### 18 Using GetTimeSeconds() ###
 
 + Using **GetWord()->GetTimeSeconds()**
 + Making our game highly “play tunable”
@@ -152,7 +152,7 @@ The Concept, Rules and Requirements of our simple game.
 + Using a spotlight to provide “affordance”
 + Play-testing to ensure the game is annoying!
 
-### Grabbing System Overview ###
+### 19 Grabbing System Overview ###
 
 + We want to be able to lift the chair next
 + We’ll add a **Grabber.cpp** component to the player
@@ -161,7 +161,7 @@ The Concept, Rules and Requirements of our simple game.
 + Create Default Pawn & Game Mode Blueprints
 + Specify our modified Default Pawn.
 
-### Modifying the Default Pawn Actor ###
+### 20 Modifying the Default Pawn Actor ###
 
 + Why Blueprint is helpful in this case
 + How to make a Blueprint from the Default Pawn
@@ -170,7 +170,7 @@ The Concept, Rules and Requirements of our simple game.
 + You make an “instance” in the scene
 + Explore “instantiating” from Blueprint & modifying.
 
-### Inherit Game Mode Blueprint ###
+### 21 Inherit Game Mode Blueprint ###
 
 + “Hard coding” means assets written into code
 + The DefaultPawn_BP is an asset
@@ -179,34 +179,34 @@ The Concept, Rules and Requirements of our simple game.
 + Extending our C++ Game Mode with Blueprint
 + Selecting the new DefaultPawn_BP
 
-### Getting Player Viewpoint ###
+### 22 Getting Player Viewpoint ###
 
 + Know where the player is looking
 + Out-parameters can be confusing
 + A way of marking-up out parameters
 + Continuously logging player viewpoint.
 
-### Using DrawDebugLine ###
+### 23 Using DrawDebugLine ###
 
 + How to add vectors
 + Calculating our line trace end point
 + Using debug functions for visualisation in Unreal
 + Use DrawDebugLine() to visualise the vectors.
 
-### Line Tracing AKA Ray-Casting ###
+### 24 Line Tracing AKA Ray-Casting ###
 
 + Line tracing (AKA ray casting) is a very useful tool
 + Imagine we shine a virtual laser into the world
 + We can use different view modes to visualise
 + Simulating physics sets the object channel.
 
-### LineTraceSingleByObjectType() ###
+### 25 LineTraceSingleByObjectType() ###
 
 + Meet references for the first time
 + LineTraceSingle may be deprecated
 + Build params inc. FCollisionQueryParams
 
-### REFERENCES & POINTERS ###
+### 26 REFERENCES & POINTERS ###
 
 + How references and pointers compare
 + How to perform common operations in both
@@ -214,13 +214,13 @@ The Concept, Rules and Requirements of our simple game.
 + Challenge: Repoint and Rewrite
 + When to use references over pointers?
 
-### Resetting Your Unreal Project ###
+### 27 Resetting Your Unreal Project ###
 
 + What to do if your Unreal solution keeps crashing
 + How to delete all temporary files
 + The order in which to reset things
 
-### Using FindComponentByClass() ###
+### 28 Using FindComponentByClass() ###
 
 + What FindComponentByClass() does
 + How to use it to find attached components
@@ -228,7 +228,7 @@ The Concept, Rules and Requirements of our simple game.
 + Use nullptr to initialise your pointers
 + Log a useful error if the component isn’t attached.
 
-### Introducing Input Binding ###
+### 29 Introducing Input Binding ###
 
 + Settings > Project Settings > Engine > Input
 + Action mappings are used for on / off actions
@@ -237,7 +237,7 @@ The Concept, Rules and Requirements of our simple game.
 + Many keys can bind to one action
 + How to call a function on a key press or release
 
-### Accessors & Memory Layout ###
+### 30 Accessors & Memory Layout ###
 
 + How the arrow, dot and **::** accessors work
 + Introducing virtual memory
@@ -246,7 +246,7 @@ The Concept, Rules and Requirements of our simple game.
 + How accessor operators relate to memory
 + Bind another input action
 
-### Reducing Code in “Hot Loops” ###
+### 31 Reducing Code in “Hot Loops” ###
 
 + A “hot loop” is code that get called often
 + **TickComponent** is a good example, every frame
@@ -255,7 +255,7 @@ The Concept, Rules and Requirements of our simple game.
 + Refactor our code for speed...
 + ...and make it ready for for the physics handle.
 
-### Using Physics Handles ###
+### 32 Using Physics Handles ###
 
 + Unreal provides a Physics Handle that’s ideal here
 + The Physics Handle component docs are scant\*
@@ -266,7 +266,7 @@ The Concept, Rules and Requirements of our simple game.
 
 + [Unreal Engine API Reference - UPhysicsHandleComponent](https://docs.unrealengine.com/latest/INT/API/Runtime/Engine/PhysicsEngine/UPhysicsHandleComponent/)
 
-### Refactoring Rules ###
+### 33 Refactoring Rules ###
 
 + Using multiple getters for multiple return values
 + Less lines of clear code is better (143 at start)
@@ -275,7 +275,7 @@ The Concept, Rules and Requirements of our simple game.
 + The “what” should be obvious...
 + … but it can be helpful to add clarification
 
-### Introducing Unreal’s TArray ###
+### 34 Introducing Unreal’s TArray ###
 
 + A **TArray** is Unreal’s go-to container class
 + Use to contain many elements of same type
@@ -283,7 +283,7 @@ The Concept, Rules and Requirements of our simple game.
 + Give our Default Pawn an eye-height and mass
 + Making our pressure-plate based on total mass.
 
-### Iterating over TArray with for ###
+### 35 Iterating over TArray with for ###
 
 + Using **auto&** as an auto reference type
 + Automatically iterating over a **TArray**
@@ -291,7 +291,7 @@ The Concept, Rules and Requirements of our simple game.
 + How to find an actor’s mass
 + Tweaking and testing our mass values.
 
-### Debugging Game Issues ###
+### 36 Debugging Game Issues ###
 
 + Are you using source control? If not start now
 + You can “binary search” commits quite fast
@@ -299,7 +299,7 @@ The Concept, Rules and Requirements of our simple game.
 + Think “what changed” and “possible side-effects”
 + Remember you can eject with F8 during play.
 
-### Managing Texture Tiling ###
+### 37 Managing Texture Tiling ###
 
 + You may want to re-size objects (e.g. panels)
 + Doing so will stretch the texture
@@ -308,7 +308,7 @@ The Concept, Rules and Requirements of our simple game.
 + UV mapping because we ran out of letters!
 + Using the TexCoord node in the material editor.
 
-### Pointer Protection Process ###
+### 38 Pointer Protection Process ###
 
 + Horrible crashes when we follow a nullptr
 + We must always check pointers before use
@@ -317,27 +317,27 @@ The Concept, Rules and Requirements of our simple game.
 + Also check before every use and handle nullptr
 + Sometimes we may chose not to, e.g. Owner.
 
-### Exposing Events to Blueprint ###
+### 39 Exposing Events to Blueprint ###
 
 + Sometimes Blueprint’s the better choice
 + For example defining our door swing as a curve
 + We can create an event called **OnOpenRequest**
 + Using **UPROPERTY (BlueprintAssignable)**
 
-### Using Blueprint Timeline ###
+### 40 Using Blueprint Timeline ###
 
 + The Timeline node in Blueprint has a curve editor
 + This is ideal for defining our door movement
 + How to use Timeline curves in Blueprint
 + Setting rotation from a Timeline.
 
-### Everything in its Place ###
+### 41 Everything in its Place ###
 
 + Using Blueprint has superseded some code
 + It’s important there’s only 1 place per parameter
 + Creating a 2nd event: **OnClose**
 
-### Using Variables in Blueprint ###
+### 42 Using Variables in Blueprint ###
 
 + Not all doors have the same absolute rotation
 + We want to store the door’s rotation at the start
@@ -345,14 +345,14 @@ The Concept, Rules and Requirements of our simple game.
 + We can use Blueprint variables for this
 + Making doors that face any direction work.
 
-### SFX & Audio Clips ###
+### 43 SFX & Audio Clips ###
 
 + We’re going to trigger a simple sound in Blueprint
 + Later in the course we’ll use C++ too
 + However we’ll always reference our assets via BP
 + How to trigger a 3D sound.
 
-### Section 3 Wrap-Up ###
+### XX Section 3 Wrap-Up ###
 
 + Congratulations on another complete section
 + You’ve learnt so much, look at the lecture titles
