@@ -19,3 +19,10 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubSpecial) to fin
 * BE02 Game Design Document (GDD)
 * BE03 Version Control 101
 * BE04 Ignoring Unreal Derived Files
+
+### 9b Include What You Use For 4.17+ ###
+
++ Converting old projects to IWYU.
++ Order of headers with IWYU.
++ Removing monolithic headers.
++ How to find headers.
