@@ -76,6 +76,13 @@ The Concept, Rules and Requirements of our simple game.
 + Use **%s** as a format operator for strings
 + Use **\*** to “dereference” pointers.
 
+### 9b Include What You Use For 4.17+ ###
+
++ Converting old projects to IWYU.
++ Order of headers with IWYU.
++ Removing monolithic headers.
++ How to find headers.
+
 ### 10 Getting Transforms in C++ ###
 
 + Introducing **FVector**
