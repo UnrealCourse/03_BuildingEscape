@@ -59,6 +59,13 @@ The Concept, Rules and Requirements of our simple game.
 + Inheritance for “is a” relationships
 + Components for “has a” relationships.
 
+### 7b Cloning and Building Our Code ###
+
++ Cloning our project.
++ Checking out a lectures state.
++ How Unreal’s build system works.
++ Diagnosing build system issues.
+
 ### 8 Runtime Messages for Feedback ###
 
 + Using **UE_LOG** to print to the Output Console
